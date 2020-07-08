@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 38.126 s <<< FAILURE! - in TestSuite
+feature(runner.Testrunner)  Time elapsed: 34.879 s  <<< FAILURE!
+cucumber.runtime.CucumberException: 
+org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "input"
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'JEEVA', ip: '192.168.43.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: unknown
+Caused by: org.openqa.selenium.support.ui.UnexpectedTagNameException: 
+Element should have been "select" but was "input"
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'JEEVA', ip: '192.168.43.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: unknown
+
